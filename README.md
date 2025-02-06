@@ -11,3 +11,21 @@ APISEC University API Security Fundamentals Course
 - <figure> <img src='./images/why_API_regulatory_reqs.jpg' alt='missing'  width="400" title="why_API_regulatory_reqs"> </figure>
 
 ## OWASP API Security Top 10 
+### API1 Broken Object Level Authorization BOLA
+- Attacker authenticate as user A and retrieves data from user B.
+
+### API2 Broken Authentication
+- Missing or Poorly implemented security controls. (vuln to brute force, token expiration, password storage, rate limitation, .... )
+
+### API3 Borken Object Property Level Authorization
+- mirge of (Mass assignment and excessive data exposure)
+- Ability to modify records, revealing protected data
+
+### API4 Unrestricted Resource Consumption
+- Denial of service, Performance impact, Excessive operations in a single request.
+- Implement traffic controls, Test effectiveness of controls.
+
+### API5 Broken Function Level Authorization BFLA
+- Abuse of API functionality to improperly modify objects (create, update, delete) could be using methods like GET, PUT, DELETE.
+
+### API
