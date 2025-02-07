@@ -42,4 +42,55 @@ APISEC University API Security Fundamentals Course
 - Unathorized API access via old unused API versions, or through trusted 3rd parties.
 
 ### API10 Unsafe Consumption of APIs
-- Exposure occurs visa use of 3rd parties APIs. You need to validate data coming from 3rd parties
+- Exposure occurs via use of 3rd parties APIs. You need to validate data coming from 3rd parties.
+
+## The 3 Pillars of API Security
+### Governance
+- Benefits
+	* Consistency
+	* Setting expectations
+	* Standard process
+	* Enforcing security
+- Awareness
+	* Full API inventory (Purpose, Owner, Documentation)
+	* Standardize and enforce API deployment process (API Gateway or Marketplace)
+	* Mandate API Documentation
+	* Create API Development Standards
+- Risk - Threat Modeling
+	* Identify	APIs, business flows, data, access paths
+	* Assess	vulnerability, logic flaws, access controls, 3rd party risks
+	* Probability
+	* impact	Understand the damage, loss, cosequences of an attack
+	* Mitigation
+- Documentation OpenAPI Specification (ASA Swagger)
+	* Testing could be built through Documentation and runtime monitoring.
+- Design Guides: Promote Governance, Consistency
+	* Authentication: basic, token and certificate
+	* Authorization
+	* Naming Conventions
+	* Error Codes
+	* versioning
+
+### Testing
+- API first testing focus on the API not the UI layer (Web or Mobile)
+- Testing Categories
+	* API Security (Enumeration, Missing TLS, Fuzzing, .....)
+	* Data Security (Access Controls, Data exfiltration, .....)
+	* Business logic
+
+### Monitoring
+- Runtime Protection (Proactive API GW - WAF, Reactive SEIM - API Threat Managment)
+	* Policy enforcement
+	* Authentication
+	* Traffic filtering
+- Threat Detection
+	* Fraudulent traffic
+	* Distributed attacks
+	* Incident response
+- Control Validation
+	* verify API control
+	* Uncover anomalies
+- API Discovery
+	* Aid API Inventory
+	* Indentify API endpoints
+	* Discover undocumented APIs
