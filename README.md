@@ -94,3 +94,8 @@ APISEC University API Security Fundamentals Course
 	* Aid API Inventory
 	* Indentify API endpoints
 	* Discover undocumented APIs
+
+## API Security Technology Landscape
+- <figure> <img src='./images/AppSec_Landscape.jpg' alt='missing'  width="400" title="why_API_regulatory_reqs"> </figure>
+
+## Conclusion and Best Practices
